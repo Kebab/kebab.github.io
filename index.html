@@ -1,1 +1,36 @@
-Bananas!
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* forked from https://codepen.io/eeeps/pen/YzBdaBZ */
+      body {
+        width: 50%;
+        margin: auto;
+          outline: 1px dotted black;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+    	loading="lazy"
+    	sizes="auto"
+      width="1200"
+      height="1200"
+    	srcset="
+    		https://o.img.rodeo/w_4800,h_4800,b_tomato/t_WxH/_.png   4800w,
+    		https://o.img.rodeo/w_3600,h_3600,b_tomato/t_WxH/_.png   3600w,
+    		https://o.img.rodeo/w_2400,h_2400,b_tomato/t_WxH/_.png   2400w,
+    		https://o.img.rodeo/w_1200,h_1200,b_tomato/t_WxH/_.png   1200w,
+    		https://o.img.rodeo/w_900,h_900,b_goldenrod/t_WxH/_.png   900w,
+    		https://o.img.rodeo/w_600,h_600,b_forestgreen/t_WxH/_.png 600w,
+    		https://o.img.rodeo/w_300,h_300,b_dodgerblue/t_WxH/_.png  300w"
+    	src="https://o.img.rodeo/w_300,h_300,b_dodgerblue/t_WxH/_.png"
+    	alt="An example image that reports its natural dimensions"
+    >
+  </body>
+</html>
