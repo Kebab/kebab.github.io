@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.box h1 {
+  font-size: 20px;
+  margin: 0 0 1rem 0;
+}
+
+.controls {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+table td {
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.narrow-column {
+  width: 1%;
+  min-width: 60px;
+  max-width: 60px;
+}
+
+.width-columnn {
+  width: 100%;
+}
+
+input {
+  /* remove the spinner thing */
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+input[type=button], button {
+  padding: 4px 8px;
+  background: #aaf;
+  border: 1px solid #66f;
+  cursor: pointer;
+}
+
+.fixed-font {
+  font-family: monospace;
+}
+
+.fixed-font span {
+  font-size: 75%;
+  letter-spacing: -1px;
+}
